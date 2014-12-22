@@ -1,0 +1,26 @@
+
+#userGuess ul{
+	margin-top: 100px;
+	width:60%;
+	height:150px;
+}
+
+.userChoices {
+	display:inline;
+	text-decoration: none;
+}
+
+.userChoices img{
+	width:30%;
+	margin:0 auto;
+	height: 150px;
+	display: inline;
+}
+
+#results {
+	margin-top: 50px;
+}
+
+#results li {
+	display: inline;
+}
