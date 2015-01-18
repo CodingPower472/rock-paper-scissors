@@ -1,26 +1,152 @@
-
-#userGuess ul{
-	margin-top: 100px;
-	width:60%;
-	height:150px;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    box-sizing: border-box;
 }
+/* HTML5 display-role reset for older browsers */
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    background-color:#3f0e47;
+    font-family: 'Anton', sans-serif;
+}
+#introText {
+    text-align: center;
+    color:#e22e74;
+    margin-top: 35px;
+    text-shadow: 1px 1px 5px black;
+}
+#userGuess {
+    margin:0 auto;
+    margin-top: 100px;
+    width:60%;
+    height:250px;
+    background-color:#861943;
+    padding:30px;
+    border-radius: 25px;
+    text-align: center;
+}
+#userGuess ul{
+    padding:0;
+}
 .userChoices {
-	display:inline;
-	text-decoration: none;
+    display:inline;
+    text-decoration: none;
+
 }
 
 .userChoices img{
-	width:30%;
-	margin:0 auto;
-	height: 150px;
-	display: inline;
+    width:30%;
+    margin:0 auto;
+    height: 150px;
+    display: inline;
 }
 
-#results {
-	margin-top: 50px;
+#results  {
+    text-align: center;
+    margin:0 auto;
+    margin-top: 50px;
 }
 
 #results li {
-	display: inline;
+    color:#e22e74;
+    padding:10px;
+    font-size: 1.5em;
+    text-align: center;
+    display: inline;
+}
+#container {
+    width:992px;
+    margin:0 auto;
+    min-height:100%;
 }
