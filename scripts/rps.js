@@ -8,6 +8,7 @@ $(document).ready(function() {
     var gamesPlayed = 0;
 
     $('.userChoices').click(function(){
+
         userChoice = $(this).val();
         computerChoice = Math.random();
             if (computerChoice < .33){
@@ -53,7 +54,7 @@ $(document).ready(function() {
             } else { tie += 1; }
 
             console.log('c' + computerWins, 'u' + userWins, 't' + tie);
-        $('#gamesPlayed').html(gamesPlayed++);
+        $('#gamesPlayed').html(gamesPlayed+= 1);
         $('#wins').html(userWins);
         $('#losses').html(computerWins);
         $('#ties').html(tie);
