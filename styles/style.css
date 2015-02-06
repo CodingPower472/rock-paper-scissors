@@ -79,7 +79,7 @@ time,
 mark,
 audio,
 video {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 
@@ -94,59 +94,62 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 body {
-    background-color:#3f0e47;
-    font-family: 'Anton', sans-serif;
+  background-color:#3f0e47;
+  font-family: 'Anton', sans-serif;
 }
 #introText {
-    text-align: center;
-    color:#e22e74;
-    margin-top: 35px;
-    text-shadow: 1px 1px 5px black;
+  text-align: center;
+  color:#e22e74;
+  margin-top: 35px;
+  text-shadow: 1px 1px 5px black;
 }
 #userGuess {
-    margin:0 auto;
-    margin-top: 100px;
-    width:60%;
-    height:250px;
-    background-color:#861943;
-    padding:30px;
-    border-radius: 25px;
-    text-align: center;
+  margin:0 auto;
+  margin-top: 100px;
+  width:60%;
+  height:250px;
+  background-color:#861943;
+  padding:30px;
+  border-radius: 25px;
+  text-align: center;
 }
-#userGuess ul{
-    padding:0;
+#userGuess, ul{
+  padding:0;
 }
 .userChoices {
-    display:inline;
-    text-decoration: none;
+  display:inline;
+  text-decoration: none;
 
 }
 
-.userChoices img{
-    width:30%;
-    margin:0 auto;
-    height: 150px;
-    display: inline;
+.userChoices, img{
+  width:30%;
+  margin:0 auto;
+  height: 150px;
+  display: inline;
+}
+#userGuess:hover {
+  background-color: #484848 ;
 }
 
 #results  {
-    text-align: center;
-    margin:0 auto;
-    margin-top: 50px;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 50px;
 }
 
-#results li {
-    color:#e22e74;
-    padding:10px;
-    font-size: 1.5em;
-    text-align: center;
-    display: inline;
+#results, li {
+  color:#e22e74;
+  padding:10px;
+  font-size: 1.5em;
+  text-align: center;
+  display: inline;
 }
 #container {
-    width:992px;
-    margin:0 auto;
-    min-height:100%;
+  width:992px;
+  margin:0 auto;
+  min-height:100%;
 }
